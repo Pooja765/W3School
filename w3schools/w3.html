@@ -1,0 +1,469 @@
+<html>
+<head>
+  <title>PHP 5 Tutorial</title>
+  <link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" href="w3php.php">
+  <link rel="script" href="w31.js">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css.map">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/js/bootstrap.min.js">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="row">
+      <div class="col-md-6 col-md-6">
+        <div class="logo">w3schools.com</div>
+     </div>
+  <br><br>
+  <div class="row">
+  <div class="col-md-12">
+  <div class="mar" align="right">THE WORLD'S LARGEST WEB DEVELOPER SITE</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">JAVASCRIPT</a></li>
+        <li><a href="#">SQL</a></li>
+        <li><a  class="active" href="#">PHP</a></li>
+        <li><a href="#">BOOTSTRAP</a></li>
+        <li><a href="#">HOW TO</a></li>
+        <li><a href="#">JQUERY</a></li>
+        <li><a href="#">W3.CSS</a></li>
+        <li><a href="#">ANGULAR</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+</div>
+</div>
+
+  <div class="tab">
+  <h3>PHP Tutorial</h3>
+  <button class="tablinks" onclick="openCity(event, 'home')">PHP Home</button>
+ <button class="tablinks" onclick="openCity(event, 'int1')">PHP Intro</button>
+  <button class="tablinks" onclick="openCity(event, 'install')">PHP Install</button>
+  <button class="tablinks" onclick="openCity(event, 'syntax')">PHP Syntax</button>
+  <button class="tablinks" onclick="openCity(event, 'varib')">PHP Variables</button>
+  <button class="tablinks" onclick="openCity(event, 'print')">PHP Echo / Print</button>
+  <button class="tablinks" onclick="openCity(event, 'data')">PHP Data Types</button>
+  <button class="tablinks" onclick="openCity(event, 'str')">PHP Strings</button>
+  <button class="tablinks" onclick="openCity(event, 'cons')">PHP Constants</button>
+  <button class="tablinks" onclick="openCity(event, 'operators')">PHP Operators</button>
+  <button class="tablinks" onclick="openCity(event, 'ife')">PHP if..Else...ElseIf</button>
+  <button class="tablinks" onclick="openCity(event, 'switch')">PHP switch</button>
+  <button class="tablinks" onclick="openCity(event, 'wloop')">PHP While Loops</button>
+  <button class="tablinks" onclick="openCity(event, 'floop')">PHP Foor Loops</button>
+  <button class="tablinks" onclick="openCity(event, 'fun')">PHP Functions</button>
+  <button class="tablinks" onclick="openCity(event, 'ary')">PHP Arrays / Print</button>
+  <button class="tablinks" onclick="openCity(event, 'sary')">PHP Storing Arrays</button>
+  <button class="tablinks" onclick="openCity(event, 'sg')">PHP Superglobals</button>
+</div>
+<div id="home" class="tabcontent">
+  <h3>PHP 5 Tutorial</h3>
+
+  <div id="h"> Home</div><div id="intro" class="tablinks" onclick="openCity(event, 'intro')">Next</div>
+
+  <br><div class="b1"><div class="f1">
+  <p>PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages.
+<br><br>
+PHP is a widely-used, free, and efficient alternative to competitors such as Microsoft's ASP.</p>
+</div>
+<hr></div>
+<h3>Easy Learning with "Show PHP"</h3>
+<div class="f1">
+<br>
+Our "Show PHP" tool makes it easy to learn PHP, it shows both the PHP source code and the HTML output of the code.
+</div>
+<div class="bord1">Example
+<div class="bord2">
+<div class="f1">
+<xmp>
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo "My first PHP script!";
+?>
+
+</body>
+</html>
+</xmp>
+</div>
+</div>
+&nbsp; &nbsp; Run example >>
+</div>
+<div class="f1"><b>
+Click on the "Run example" button to see how it works.</b>
+</div>
+</div>
+
+<div id="int1" class="tabcontent">
+<br>
+<br>
+  <h3>PHP 5 Introduction</h3><br><hr>
+  <div class="f1">
+  <p>PHP scripts are executed on the server.</p>
+  <hr>
+  </div>
+  <h3>What You Should Already Know</h3>
+  <br><div class="f1">
+  <p>Before you continue you should have a basic understanding of the following:</p>
+  </div>
+  <ul><div class="f1">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</li></div>
+  </ul>
+  <hr>
+  <p>If you want to study these subjects first, find the tutorials on our Home page.</p>
+  <hr>
+  <h3>What is PHP?</h3>
+  <ul><div class="f1">
+  <li>PHP is an acronym for "PHP: Hypertext Preprocessor"</li>
+  <li>PHP is a widely-used, open source scripting language</li>
+  <li>PHP scripts are executed on the server</li>
+  <li>PHP is free to download and use</li></div></ul>
+</div>
+
+<div id="install" class="tabcontent">
+<br><br>
+  <h3>PHP 5 Installation</h3><br><hr>
+
+  <h3>What Do I Need?</h3>
+  <div class="f1">
+  <p>To start using PHP, you can:</p>
+  <ul>
+  <li>Find a web host with PHP and MySQL support</li>
+  <li>Install a web server on your own PC, and then install PHP and MySQL</li>
+  <hr></ul></div>
+  <h3>Use a Web Host With PHP Support</h3><br>
+  <p><div class="f1">
+  If your server has activated support for PHP you do not need to do anything.<br><br>
+
+Just create some .php files, place them in your web directory, and the server will automatically parse them for you.<br><br>
+
+You do not need to compile anything or install any extra tools.<br><br>
+
+Because PHP is free, most web hosts offer PHP support.
+</div>
+</div>
+
+<div id="syntax" class="tabcontent">
+  <br><br>
+  <h3>PHP 5 Syntax</h3><br><hr>
+  <div class="f1">
+  <p>A PHP script is executed on the server, and the plain HTML result is sent back to the browser.</p>
+  <h3>Basic PHP Syntax</h3>
+  
+  <p>A PHP script can be placed anywhere in the document.<br><br>
+
+A PHP script starts with <?php and ends with ?>:</p>
+  <xmp><?php
+// PHP code goes here
+?></xmp>
+</div>
+</div>
+
+<div id="varib" class="tabcontent">
+  <br><br>
+  <h3>PHP 5 Variables</h3><br><hr>
+
+  
+  <div class="f1">
+  <p>Variables are "containers" for storing information.
+  </p>
+  </div>
+  <h3>Creating (Declaring) PHP Variables</h3>
+  
+  <p><div class="f1">
+ In PHP, a variable starts with the $ sign, followed by the name of the variable:
+ </div>
+ <div class="bord1">Example
+<div class="bord2">
+<div class="f1">
+<xmp>
+<?php
+$txt = "Hello world!";
+$x = 5;
+$y = 10.5;
+?>
+</xmp>
+</div>
+</div>
+&nbsp; &nbsp; Run example >>
+</div>
+ </p>
+</div>
+
+<div id="print" class="tabcontent">
+  <br><br>
+  <h3>PHP 5 echo and print Statements</h3><br><hr>
+
+  <div class="f1">
+  <p>In PHP there are two basic ways to get output: echo and print.<br><br>
+
+In this tutorial we use echo (and print) in almost every example. So, this chapter contains a little more info about those two output statements.</p>
+<hr>
+  <h3>PHP echo and print Statements</h3>
+  <p class="f1">echo and print are more or less the same. They are both used to output data to the screen.<br><br>
+
+The differences are small: echo has no return value while print has a return value of 1 so it can be used in expressions. echo can take multiple parameters (although such usage is rare) while print can take one argument. echo is marginally faster than print.</p>
+</div>
+</div>
+
+<div id="data" class="tabcontent">
+  <br><br>
+  <h3>PHP 5 Data Types</h3><br><hr>
+
+  <div class="f1">
+  <p>Variables can store data of different types, and different data types can do different things.<br><br>
+  <ul>
+  <li>String</li>
+  <li>Integer</li>
+  <li>	Float (floating point numbers - also called double)</li>
+	<li>Boolean</li>
+	<li>Array</li>
+	<li>Object</li>
+	<li>NULL</li>
+	<li>Resource</li>
+  <hr></ul></p>
+  </div>
+  <h3>PHP String</h3><br>
+  <p><div class="f1">
+  A string is a sequence of characters, like "Hello world!".<br><br>
+
+A string can be any text inside quotes. You can use single or double quotes:<br><br>
+</div>
+</div>
+
+<div id="str" class="tabcontent">
+  <br><br>
+  <h3>PHP 5 Strings</h3><br><hr>
+  <div class="f1">
+  <p>A string is a sequence of characters, like "Hello world!".
+</p><hr>
+  <h3>PHP String Functions</h3><br>
+  <p><div class="f1">
+  In this chapter we will look at some commonly used functions to manipulate strings.
+</div></p>
+<br><br>
+</div>
+</div>
+
+
+
+<div id="cons" class="tabcontent">
+  <br><br>
+  <h3>PHP 5 Constants</h3><br><hr>
+
+  <div class="f1">
+  <p>Constants are like variables except that once they are defined they cannot be changed or undefined.</p><hr>
+  </div>
+  <h3>PHP Constants</h3><br>
+  <p><div class="f1">
+  A constant is an identifier (name) for a simple value. The value cannot be changed during the script.<br><br>
+
+A valid constant name starts with a letter or underscore (no $ sign before the constant name).<br><br>
+
+Note: Unlike variables, constants are automatically global across the entire script.<br><br>
+</div>
+</div>
+
+<div id="operators" class="tabcontent">
+  <br><br>
+  <h3>PHP 5 Operators</h3><br><hr>
+
+  <div class="f1">
+  <p>Operators are used to perform operations on variables and values.<br><br>
+
+  <ul>
+  <li>Arithmetic operators
+   <li>Assignment operators</li>
+<li>	Comparison operators</li>
+	<li>Increment/Decrement operators</li>
+	<li>Logical operators</li>
+	<li>String operators</li>
+	<li>Array operators</li>
+  <hr></ul></div> 
+</div>
+
+
+<div id="ife" class="tabcontent">
+  <br><br>
+  <h3>PHP 5 if...else...elseif Statements</h3><br><hr>
+  <div class="f1">
+  <p>Conditional statements are used to perform different actions based on different conditions.</p><hr>
+  </div>
+  <h3>PHP Conditional Statements</h3><br>
+  <p><div class="f1">
+  Very often when you write code, you want to perform different actions for different conditions. You can use conditional statements in your code to do this.
+  </div></p>
+</div>
+
+
+<div id="switch" class="tabcontent">
+ <br><br>
+  <h3>PHP 5 switch Statement</h3><br><hr>
+
+  
+  <div class="f1">
+  <p>The switch statement is used to perform different actions based on different conditions.</p><hr>
+  
+  <h3>The PHP switch Statement</h3><br>
+  <p><div class="f1">
+  Use the switch statement to select one of many blocks of code to be executed.
+  </div></p>
+<br><br>
+</div>
+</div>
+
+
+<div id="wloop" class="tabcontent">
+  <br><br>
+  <h3>PHP 5 while Loops</h3><br><hr>
+
+  <div class="f1">
+  <p>PHP while loops execute a block of code while the specified condition is true.</p><hr>
+  
+  <h3>PHP Loops</h3>
+  <p><div class="f1">
+  Often when you write code, you want the same block of code to run over and over again in a row. Instead of adding<br> several almost equal code-lines in a script, we can use loops to perform a task like this.
+</div>
+</div>
+</p>
+</li></ul></p>
+</div>
+</div>
+
+
+<div id="floop" class="tabcontent">
+  <br><br>
+  <h3>PHP 5 for Loops</h3><br><hr>
+  <div class="f1">
+  <p>PHP for loops execute a block of code a specified number of times.</p><hr>
+ 
+  <h3>The PHP for Loop</h3><br>
+  <p><div class="f1">
+  The for loop is used when you know in advance how many times the script should run.
+  </div>
+  </p>
+</div>
+</div>
+
+
+<div id="fun" class="tabcontent">
+  <br><br>
+  <h3>PHP 5 Functions</h3><br><hr><br>
+  <div class="f1">
+  <p>The real power of PHP comes from its functions; it has more than 1000 built-in functions.</p><hr>
+ 
+  <h3>PHP User Defined Functions</h3><br>
+  <p><div class="f1">
+  Besides the built-in PHP functions, we can create our own functions.<br><br>
+
+A function is a block of statements that can be used repeatedly in a program.<br><br>
+
+A function will not execute immediately when a page loads.<br><br>
+
+A function will be executed by a call to the function.<br><br>
+</div>
+</div>
+</div>
+
+<div id="ary" class="tabcontent">
+  <br><br>
+  <h3>PHP 5 Arrays</h3><hr>
+
+  <div class="f1">
+  <p>An array stores multiple values in one single variable:</p>
+  <div class="bord1">Example
+<div class="bord2">
+<div class="f1">
+<xmp>
+<?php
+$cars = array("Volvo", "BMW", "Toyota");
+echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ".";
+?>
+</xmp>
+</div>
+</div>
+  </div>
+</div>
+</div>
+
+<div id="sary" class="tabcontent">
+  <br><br>
+  <h3>PHP 5 Sorting Arrays</h3><br><hr>
+
+  <div class="f1">
+  <p>The elements in an array can be sorted in alphabetical or numerical order, descending or ascending.</p><hr>
+  <h3>PHP - Sort Functions For Arrays</h3>
+  <p class="f1">In this chapter, we will go through the following PHP array sort functions:<br><br>
+  <ul>
+  <li>sort() - sort arrays in ascending order</li>
+<li>	rsort() - sort arrays in descending order</li>
+	<li>asort() - sort associative arrays in ascending order, according to the value</li>
+	<li>ksort() - sort associative arrays in ascending order, according to the key</li>
+	<li>arsort() - sort associative arrays in descending order, according to the value</li>
+	<li>krsort() - sort associative arrays in descending order, according to the key</li>
+  <li>Install a web server on your own PC, and then install PHP and MySQL</li>
+  </ul></p>
+  </div> 
+</div>
+
+
+<div id="sg" class="tabcontent">
+  <br><br>
+  <h3>PHP 5 Global Variables - Superglobals</h3><br><hr>
+  <div class="f1">
+  <p>Superglobals were introduced in PHP 4.1.0, and are built-in variables that are always available in all scopes.
+</p><hr>
+<h3>PHP Global Variables - Superglobals</h3>
+<p class="f1">Several predefined variables in PHP are "superglobals", which means that they are always accessible, regardless of <br>scope - and you can access them from any function, class or file without having to do anything special.<br><br>
+
+The PHP superglobal variables are:</p>
+  <ul>
+  <li>$GLOBALS</li>
+	<li>$_SERVER</li>
+	<li>$_REQUEST</li>
+	<li>$_POST</li>
+	<li>$_GET</li>
+	<li>$_FILES</li>
+	<li>$_ENV</li>
+	<li>$_COOKIE</li>
+	<li>$_SESSION</li>
+  </ul>
+  <p><div class="f1">
+  This chapter will explain some of the superglobals, and the rest will be explained in later chapters.<br><hr>
+  </div>
+  </p>
+</div>
+</div>
+</body>
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+</html>
